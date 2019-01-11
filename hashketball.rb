@@ -155,7 +155,7 @@ def team_names
   teams
 end
 
-def player_numbers(team)
+def player_numbers(team_name)
   numbers = []
 
   game_hash.each do |location, team_data|
