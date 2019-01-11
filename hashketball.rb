@@ -181,7 +181,8 @@ def player_stats(name)
 end
 
 def big_shoe_rebounds()
-
+  player_with_largest_shoe = find_player_with_longest_shoe()
+  
   game_hash().each do |location, team_data|
     team_data[:players].each do |player_name, player_stats|
       if player_name == player_with_largest_shoe
