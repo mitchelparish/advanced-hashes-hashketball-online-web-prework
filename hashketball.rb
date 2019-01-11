@@ -94,7 +94,7 @@ def game_hash
         slam_dunks: 5
       },
       "Ben Gordon" => {
-        numner: 8,
+        number: 8,
         shoe: 15,
         points: 33,
         rebounds: 3,
